@@ -1,1 +1,17 @@
 # PessoaAPI
+# Criar Projeto:
+# dotnet new webapi -n PessoaAPI
+
+# Dependencias:
+# dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design -v 3.1
+# dotnet add package Microsoft.EntityFrameworkCore.Design -v 3.1
+# dotnet tool install --global dotnet-aspnet-codegenerator -v 3.1
+# dotnet tool update -g Dotnet-aspnet-codegenerator -v 3.1
+# dotnet aspnet-codegenerator controller -name TodoItemsController -async -api -m TodoItem -dc TodoContext -outDir Controllers
+
+# Dependencias banco de dadosin memoria
+# dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+# exclua o controller e o model padrao
+
+# para depurar execute F5 e escolhar NET COre Launch web
